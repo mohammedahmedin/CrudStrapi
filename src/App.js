@@ -1,5 +1,11 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import './App.css';
+
+
+import HomePage from './Pages/HomePage'
+import MobileDetails from './Pages/MobileDetails'
+import Category from './Pages/Category'
+import SideHeader from './Component/SideHeader'
 
 function App() {
   return (
