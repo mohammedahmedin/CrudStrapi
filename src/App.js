@@ -35,5 +35,17 @@ function App() {
     </Router>
   );
 }
+ let name = 25;
+
+ console.log(name == 25)
+ console.log(name = 25)
+ console.log(name != 30)
+ console.log(name >= 25)
+
+
+
+
+
+
 
 export default App;

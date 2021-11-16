@@ -22,8 +22,8 @@ if(error)return <p>Error...🤔</p>
              
              <small>console list</small>
              
-
             
+                
                 
             <p>{mobile.Body.substring(0, 200)}</p>
              <Link to={'/MobileDetails/${mobile.id}'}>Read more</Link>
